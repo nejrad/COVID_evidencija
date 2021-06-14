@@ -1,0 +1,18 @@
+ZADATAK(TASK)
+
+Kreirati rječnik u kojem će se čuvati podaci o corona epidemiji: grad će biti ključ, a vrijednosti će se čuvati u
+nizu tako da je prvi element niza ukupan broj zaraženih, drugi element broj oporavljenih i treci broj umrlih.
+Na početku programa ispišemo korisniku trenutno stanje na način:
+
+Sarajevo: Broj zarazenih - 10, Broj oporavljenih - 8, Broj umrlih - 1
+Zenica: Broj zarazenih - 8, Broj oporavljenih - 5, Broj umrlih - 0
+
+Pitati korisnika da li želi uraditi ažuriranje stanja. Ako je odgovor potvrdan pita ga za koji grad želi unijeti
+podatke. Omogućiti da korisnik može unijeti opcije da, DA, Da, dA - ne može unijeti ništa osim slova; ukoliko
+unese slova, ali nije Da, ispisuje se ponovno stanje po gradovima, pozdravlja se korisnik i program završava.
+Ukoliko traženi grad postoji u rječniku pita se koji podatak se želi promijeniti i radi se njegov update. Ukoliko
+grad ne postoji, on se dodaje u rječnik sa svim defaultnim podacima postavljenim na 0 i pita se korisnik da
+unese vrijednosti o svim podacima.
+
+Nakon unosa, prikazuje mu se novo stanje i ponovno pita da li želi uraditi neke izmjene. Program se ponavlja
+sve dok korisnik ne potvrdi da želi završiti.
